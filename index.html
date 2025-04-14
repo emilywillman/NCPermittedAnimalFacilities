@@ -149,7 +149,7 @@ legend.onAdd = function () {
     // Create Div Element and Populate it with HTML
     var div = L.DomUtil.create('div', 'legend');
     //this line creates a title for the choropleth part of the legend
-    div.innerHTML += '<b>Permitted Animal Facilites</b><br />';
+    div.innerHTML += '<b>NC County Population (2023)</b><br />';
     //notice the class breaks entered at the end of the next 5 lines
     //the colors specify the shade of purple that we used to do the polygon shading
     div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p>107+</p>';
@@ -158,7 +158,7 @@ legend.onAdd = function () {
     div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p>26-52</p>';
     div.innerHTML += '<i style="background: ' + colors[0] + '; opacity: 0.5"></i><p> 0-25</p>';
     //this line provides the legend title for the airbnb colored symbols
-    div.innerHTML += '<hr><b>Animal Facility Type<b><br />';
+    div.innerHTML += '<hr><b>Permitted Animal Facility Type<b><br />';
     //the next 3 lines call the airbnb icon along with its proper color
     //notice the names of the Airbnb property types listed within the <p> tags at the end of the lines
     div.innerHTML += '<i class="fa-solid fa-building-wheat marker-color-1"></i><p>Swine</p>';
